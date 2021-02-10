@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding-left: 35px;
+    padding-right: 35px;
+    max-width: 100%;
+}
+
+.logo {
+    text-align-last: center;
+    font-size: 22px;
+}
+
+.logo h1 {
+    text-align-last: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 38px;
+}
+nav {
+    width: 100%;
+    position: relative;
+    top: 15px;
+    text-align:center;
+    background-color: rgb(192, 44, 44);
+    padding: 15px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    transition: .4s ease;
+    padding: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+nav ul li:hover {
+    background-color: rgb(255, 0, 0); 
+    transition: .4s ease; 
+    border-radius: 2px;  
+}
+.Breaking
+ {
+     position: relative;
+     top: 20px;
+     justify-content: space-around;
+     width: 100%;
+     text-align: center;
+ }
+ .s-container {
+    padding: 15px;
+    margin: 12px; 
+    display: flex;
+ }
+ .s-container{
+    flex-basis: 50%;
+ }
+.c1 {
+    width: 25%;
+    margin-left: 20px;
+    justify-items: right;
+    text-align: left;
+    transition: .4s ease;
+}
+.c1 img {
+    max-width: 100%;
+}
+.c1 h2 {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.c1 p {
+    display: none;
+}
+.c1:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.previous {
+    justify-content: space-around;
+    position: relative;
+}
+.previous .p-contents {
+    flex-basis: 50%;
+    max-width: 100%;
+    display: flex;
+}
+.previous .p-contents .c2  {
+    position: relative;
+    background: red;
+    padding-right: 25px;
+    width: 70%;
+    height: 350px;
+    padding: 0;
+}
+.previous .p-contents .c2 img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main .body {
+    display: flex;
+
+}
+.main .body .T-Stories {
+    width: 100%;
+    flex-basis: 100%;
+    padding: 35px;
+}
+.main .body .T-Stories h1, h3 {
+
+    text-align:center;
+    border-bottom: 1px solid red;
+    margin-bottom: 2px;
+}
+
+.S1 {
+    position: relative;
+}
+.S1 a{
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.S2 img{
+    width: 100%;
+    border: 4px solid red;
+}
+.S3 h5{
+  display: flex;
+  position: relative;
+  top: -85px;
+  width: 70%;
+  left: 36%;
+}
+.s-container .c1 .foot {
+    background: red;
+    width: 100%;
+    height: 50px;
+}
